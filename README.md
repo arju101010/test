@@ -94,13 +94,6 @@ git reset –-hard HEAD~1
 git reset –-hard origin/main1
 ```
 
-### Useful Commands Summary
--   git status: Shows the status of your working directory and staging area.
--   git rebase -i HEAD~1: Interactively rebase the last commit.
--   git rebase --continue: Continues the rebase after conflicts.
--   git checkout -b "branch-name": Creates and switches to a new branch.
--   git clone <repository_link>: Clones the specified repository.
--   ls -a: Lists all files, including hidden ones.
--   git remote -v: Shows remote repository URLs.
+**Note**: Rebase and merge both rewrite commit history but merging creates an extra commit, which can be confusing later. Therefore, rebasing is often preferred for a cleaner history.
 
-![Screenshot of git init](1.png)
+1.png
