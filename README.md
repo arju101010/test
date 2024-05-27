@@ -4,19 +4,19 @@
 
 ### 1. `git init`
 **Description**: Initializes a new Git repository.
-**Example**:
+# **Example**:
 ```bash
 git init
 ```
 
-2. `git clone <repository-url>`
+### 2. `git clone <repository-url>`
 **Description**: Clones a repository into a new directory.
 **Example**:
 ```bash
 git clone https://github.com/example/example-repo.git
 ```
 
-3. `git add <file>`
+### 3. `git add <file>`
 **Description**: Adds file contents to the staging area.
 **Example**:
 ```bash
