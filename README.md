@@ -11,56 +11,56 @@ git init
 
 ### 2. `git clone <repository-url>`
 **Description**: Clones a repository into a new directory.
-**Example**:
+#### **Example**:
 ```bash
 git clone https://github.com/example/example-repo.git
 ```
 
 ### 3. `git add <file>`
 **Description**: Adds file contents to the staging area.
-**Example**:
+#### **Example**:
 ```bash
 git add README.md
 ```
 ### 4. `git commit -m "<message>"`
 **Description**: Records changes to the repository with a message.
-**Example**:
+#### **Example**:
 ```bash
 git commit -m "Initial commit"
 ```
 ### 5. `git push`
 **Description**:  Updates remote refs along with associated objects.
-**Example**:
+#### **Example**:
 ```bash
 git push origin main
 ```
 ### 6. `git pull`
 **Description**: Fetches from and integrates with another repository or a local branch.
-**Example**:
+#### **Example**:
 ```bash
 git pull origin main
 ```
 ### 7. `git status`
 **Description**: Shows the working tree status
-**Example**:
+#### **Example**:
 ```bash
 git status
 ```
 ### 8. `git checkout <branch>`
 **Description**: Switches branches or restores working tree files.
-**Example**:
+#### **Example**:
 ```bash
 git checkout branch-1
 ```
 ### 9. `echo “1st line” > fileName.extension `
 **Description**:1.	It will create a file named file.text in your local machine and there will create a line named name “1st line” in file.txt file
-**Example**:
+#### **Example**:
 ```bash
 echo “1st line” > file.text 
 ```
 ### 10. `echo “2nd line” > fileName.extension `
 **Description**:1.	2.	>> It will append the 2nd line in the text.file  file. Basically >> uses for append line.
-**Example**: 
+#### **Example**: 
 ```bash
 echo “2nd line” >> file.text 
 ```
@@ -68,13 +68,13 @@ echo “2nd line” >> file.text
 
 ### 11. `git log`
 **Description**: This will show our git commit histories
-**Example**:
+#### **Example**:
 ```bash
 git log
 ```
 ### 12. `git reset –-soft HEAD~1`
-**Description**: 4.	It basically works as undo. If this command is run then, the last commit will be deleted from the git commit history but it can be reset later and in the commit history, there will be no last commit. But The changes will remain in the file.  It won’t delete the changes. Staged will be there.
-**Example**:
+**Description**: It basically works as undo. If this command is run then, the last commit will be deleted from the git commit history but it can be reset later and in the commit history, there will be no last commit. But The changes will remain in the file.  It won’t delete the changes. Staged will be there.
+#### **Example**:
 ```bash
 git reset –-soft HEAD~1
 ```
@@ -82,14 +82,14 @@ git reset –-soft HEAD~1
 
 ### 13. `git reset –-hard HEAD~1`
 **Description**: 	If this command is run then, the last commit will be permanently deleted from the commit history and also the changes will be deleted from the file.
-**Example**:
+#### **Example**:
 ```bash
 git reset –-hard HEAD~1
 
 ```
 ### 14. `git reset –-hard origin/main1`
 **Description**: Hard reset to match the remote main branch. It will delete all commits and also files changes will be deleted.
-**Example**:
+#### **Example**:
 ```bash
 git reset –-hard origin/main1
 ```
