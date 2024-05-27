@@ -4,7 +4,7 @@
 
 ### 1. `git init`
 **Description**: Initializes a new Git repository.
-# **Example**:
+#### **Example**:
 ```bash
 git init
 ```
